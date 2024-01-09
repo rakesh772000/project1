@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(black, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerForm{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 40px;
+    box-shadow: 0 0 3px rgb(30, 30, 28);
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(135, 139, 143);
+}
+label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+input{
+    padding: 5px;
+    border-radius: 3px;
+    background: transparent;
+}
+button{
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0 0 3px;
+    background-color:rgba(144, 153, 153,0.4);
+}a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgba(144, 153, 153, 0.3) ;
+}
